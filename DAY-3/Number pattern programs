@@ -1,0 +1,100 @@
+
+
+29_Print_Number_1_Square_Pattern
+#include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<n;col++)
+        printf("1");
+      
+    }
+}
+
+30_Print_Column_Number_Pattern
+#include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<n;col++)
+        printf("%d",col+1);
+      
+    }
+}
+
+31_Print_Row_Number_Pattern
+#include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<n;col++)
+        printf("%d",row+1);
+      
+    }
+}
+
+32_Print_Increasing_Row_Number_Pattern
+#include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<=row;col++)
+        printf("%d",row+1);
+      
+    }
+}
+
+33_Print_Inverted_Number_Pattern
+#include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<n-row;col++)
+        printf("%d",col+1);
+      
+    }
+  }
+
+34_Print_Increasing_Continuous_Number_Pattern
+#include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<n;col++)
+        printf("%d",col+1);
+      
+    
+    }
+}
+
+35_Print_Continuous_Number_Square_Pattern
+#include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<=row;col++)
+        printf("%d",col+1);
+      
+    }
+}
