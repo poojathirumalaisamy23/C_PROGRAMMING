@@ -1,0 +1,81 @@
+
+01_Print_Name
+#include <stdio.h>
+int main()
+{
+    printf("pooja T T");
+}
+
+
+02_Print_Double_Quotes
+# include <stdio.h>
+  int main ()
+  {
+      printf("slow and \"steady\" wins the race ");
+  }
+    
+
+03_Print_Backslash_N_Using_Escape_Sequence
+#include <stdio.h>
+   int main()
+    {
+        printf("\\n");
+    }
+    
+
+04_Addition_Of_Two_Numbers
+#include <stdio.h>
+   int main()
+   {
+       int a,b,sum=0;
+        scanf("%d%d",&a,&b);
+        sum=a+b;
+        printf("sum is : %d",sum);
+   }
+
+
+
+05_Read_And_Print_Number
+#include <stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    printf("%d",n);
+}
+ 
+
+06_Simple_If_Else
+#include<stdio.h>
+ int main()
+{
+   if(1)
+     printf("hi");
+    else 
+   printf("hello");
+ }
+
+
+07_If_Else_Using_Not_Operator
+#include<stdio.h>
+ int main()
+ {
+     int a=1;
+    if(!a)
+    printf("hi");
+     else 
+     printf("hello");
+ }
+
+
+08_If_Else_With_Multiple_Statements
+#include<stdio.h>
+int main()
+{
+    int a=1;
+    if(a>0)
+    {printf("hi\n");
+     printf("Thanks");}
+    else 
+    printf("hello");
+} 
