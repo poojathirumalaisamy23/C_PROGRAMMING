@@ -1,0 +1,145 @@
+
+
+36_Find_Maximum_Element_In_Array
+#include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<n-row;col++)
+        printf("%d",n-col);
+    }
+    }
+    
+
+37_Find_Minimum_Element_In_Array
+#include<stdio.h>
+int main()
+{
+    int n,row,col,c=1;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<=row;col++)
+        printf("%d",c++);
+      
+    }
+} 
+  
+38_Print_Array_Elements
+#include<stdio.h>
+int main()
+{
+    int n,row,col,c=0;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<n;col++)
+        printf("%d",c++);
+      
+    }
+}
+
+  
+39_Find_Average_Of_Array_Elements
+#include<stdio.h>
+int main()
+{
+    int n,i,max;
+    scanf("%d",&n);
+    int arr[n];
+    for(i=0;i<n;i++)
+    {scanf("%d",&arr[i]);
+    } 
+    max=arr[0];
+    for(i=1;i<n;i++)
+    {
+     if(arr[i]>max)
+     max=arr[i];
+    }
+    printf("maximum of element: %d",max);
+}
+ 
+40_Find_Sum_Of_Array_Elements
+#include<stdio.h>
+int main()
+{
+    int n,i,min;
+    scanf("%d",&n);
+    int arr[n];
+    for(i=0;i<n;i++)
+    {scanf("%d",&arr[i]);
+    } 
+    min=arr[0];
+    for(i=1;i<n;i++)
+    {
+     if(arr[i]<min)
+     min=arr[i];
+    }
+    printf("minimun of element: %d",min);
+}
+   
+41_Print_Array_Elements 
+#include <stdio.h>
+int main()
+{
+    int n,i;
+    scanf("%d",&n);
+    int arr[n];
+    for(i=0;i<n;i++)
+    scanf("%d",&arr[i]);
+    for(i=0;i<n;i++)
+    printf("%d ",arr[i]);
+}
+  
+42_Find_Average_Of_Array_Elements
+#include <stdio.h>
+int main()
+{
+    int n,i,sum=0;
+    scanf("%d",&n);
+    int arr[n];
+    for(i=0;i<n;i++)
+    {scanf("%d",&arr[i]);
+    sum=arr[i];
+     }
+   float avg=(float)sum/n;
+   printf("avg of elements: %.2f",avg);
+}
+
+
+43_Find_Sum_Of_Array_Elements
+#include <stdio.h>
+int main()
+{
+    int n,i,sum=0;
+    scanf("%d",&n);
+    int arr[n];
+    for(i=0;i<n;i++)
+    {scanf("%d",&arr[i]);
+    sum=sum+arr[i];
+    }
+    printf("sum of elements :%d",sum);
+}
+
+44_Read_And_Print_2D_Array
+#include<stdio.h>
+int main()
+{
+    int row,col,i,j;
+    scanf("%d%d",&row,&col);
+    int arr[row][col];
+    for(i=0;i<row;i++)
+   {
+       for(j=0;j<col;j++)
+       scanf("%d",&arr[i][j]);
+   }
+    printf("output is:\n");
+    for(i=0;i<row;i++,printf("|\n"))
+    {
+        for(j=0;j<col;j++)
+        printf("%d ",arr[i][j]);
+    }
+}
