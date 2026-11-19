@@ -1,0 +1,134 @@
+20_Print_Square_Star_Pattern
+#include <stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+        {
+            for(col=0;col<n;col++)
+        printf("*");
+    }
+}
+
+21_Print_Right_Angled_Triangle_Star_Pattern
+#include <stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+        {
+            for(col=0;col<=row;col++)
+        printf("*");
+    }
+}
+
+
+22_Print_Inverted_Right_Triangle_Star_Pattern
+#include <stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+        {
+            for(col=0;col<n-row;col++)
+        printf("*");
+    }
+}
+
+
+
+23_Print_Increasing_Star_Pattern
+#include <stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+        {
+            for(col=0;col<2*row-1;col++)
+        printf("*");
+    }
+}
+
+24_Print_Space_Before_Star_Pattern
+#include <stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+        {
+        for(col=0;col<=row-1;col++)
+        printf(" ");
+        for(col=0;col<n;col++)
+        printf("*");
+    }
+}
+
+25_Print_Inverted_Spaced_Star_Pattern
+#inclide<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+        {
+        for(col=0;col<n-row;col++)
+        printf(" ");
+        for(col=0;col<n;col++)
+        printf("*");
+    }
+}
+
+26_Print_Spaced_Star_Pattern
+#include <stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,prin 
+    tf("\n"))
+        {
+        for(col=0;col<n-row-1;col++)
+        printf(" ");
+        for(col=0;col<n;col++)
+        printf("*");
+    }
+}
+
+
+27_Print_Inverted_Triangle_Star_Pattern
+#include <stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+        {
+        for(col=0;col<n-row;col++)
+        printf(" ");
+        for(col=0;col<=row;col++)
+        printf("*");
+    }
+    
+    
+    
+28_Print_Double_Triangle_Star_Pattern    
+#include<stdio.h>
+int main()
+{
+    int n,row,col;
+    scanf("%d",&n);
+    for(row=0;row<n;row++,printf("\n"))
+    {
+        for(col=0;col<=row;col++)
+        printf("*");
+        for(col=0;col<n-row; col++)
+        printf(" ");
+        for(col=0;col<=row;col++)
+        printf("*");
+    }
+}
